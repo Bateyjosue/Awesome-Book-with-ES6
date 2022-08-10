@@ -3,7 +3,7 @@
 # Awesome Books
 
 > "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list, rewrite using ES6 Module.  
->>[live demo](https://bateyjosue.github.io/awesome-books/)
+>>[live demo](https://bateyjosue.github.io/Awesome-Book-with-ES6/)
 
 ## Built With (Linker)
 
