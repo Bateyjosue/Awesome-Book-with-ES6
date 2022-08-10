@@ -7,11 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.contact-form').style.display = 'none';
 });
 
-// if (localStorage.getItem('bookArray') === null) {
-//   bookArray = [];
-// } else {
-//   bookArray = JSON.parse(localStorage.getItem('bookArray'));
-// }
 const addBook = document.forms['add-book'];
 const bookList = document.querySelector('.book-list');
 const addBookButton = document.querySelector('#submit');
