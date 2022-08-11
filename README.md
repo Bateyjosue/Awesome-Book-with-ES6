@@ -21,12 +21,6 @@
 
 ## Authors
 
-👤 **Praises Tula**
-
-- GitHub: [@praisespjmt](https://github.com/PraisesPJMT)
-- Twitter: [@praisespjmt](https://twitter.com/PraisesPJMT)
-- LinkedIn: [Praises Musa Tula](https://www.linkedin.com/in/praises-tula-9233aa76)
-
 👤 **Josh Batey**
 
 - GitHub: [@Bateyjosue](https://github.com/Bateyjosue)
