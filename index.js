@@ -6,18 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.new-book').style.display = 'none';
   document.querySelector('.contact-form').style.display = 'none';
 });
-
 const addBook = document.forms['add-book'];
 const bookList = document.querySelector('.book-list');
 const addBookButton = document.querySelector('#submit');
-
 const bookOject = new Book();
-
 addBookButton.addEventListener('click', (event) => {
   event.preventDefault();
   const bookTitle = addBook.querySelector('input[name="title"]').value;
   const bookAuthor = addBook.querySelector('input[name="author"]').value;
-
   if (bookTitle.length > 1 && bookAuthor.length > 1) {
     bookOject.createBook(bookTitle, bookAuthor);
     bookOject.updateCollection();
@@ -42,7 +38,6 @@ addBookButton.addEventListener('click', (event) => {
     addBook.appendChild(div);
   }
 });
-
 bookList.addEventListener('click', (e) => {
   if (e.target.className === 'delete-btn') {
     const book = e.target.parentElement;
@@ -51,7 +46,6 @@ bookList.addEventListener('click', (e) => {
     bookList.removeChild(book);
   }
 });
-
 if (bookOject.bookArray) {
   bookOject.bookArray.forEach((book) => {
     if (book) {
@@ -71,7 +65,6 @@ if (bookOject.bookArray) {
           </p>
         </li>`;
 }
-
 const nav = document.querySelectorAll('nav a');
 nav.forEach((element) => {
   element.addEventListener('click', (e) => {
@@ -90,7 +83,6 @@ nav.forEach((element) => {
     }
   });
 });
-
 const date = document.querySelector('.date');
 
 setInterval(() => {
